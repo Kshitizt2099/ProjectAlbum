@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Home from './Components/Home'
 import Update from './Components/Update'
 import Adddata from './Components/Adddata'
-import { Route,Routes } from 'react-router-dom'
+import { Route,Routes,BrowserRouter } from 'react-router-dom'
 const App = () => {
 const [data,setdata]=useState([])
   useEffect(()=>{
@@ -36,14 +36,14 @@ const [data,setdata]=useState([])
    
   return (
    
-    <>
+    <BrowserRouter basename='/ProjectAlbum'>
       <Routes>
-        <Route exact path='/ProjectAlbum' element={<Home data={data} del={del} update={update}/>}/>
+        <Route exact path='/' element={<Home data={data} del={del} update={update}/>}/>
         <Route exact path='/update/:id' element={<Update data={data} update={update} />}/>
         <Route exact path='adddata' element={<Adddata  adddata={adddata} />}/>
       </Routes>
       
-    </>
+    </BrowserRouter>
 
   )
 }

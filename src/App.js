@@ -38,7 +38,7 @@ const [data,setdata]=useState([])
    
     <>
       <Routes>
-        <Route exact path='/ProjectAlbum' element={<Home data={data} del={del} update={update}/>}/>
+        <Route exact path='/ProjectAlbum/' element={<Home data={data} del={del} update={update}/>}/>
         <Route exact path='/update/:id' element={<Update data={data} update={update} />}/>
         <Route exact path='adddata' element={<Adddata  adddata={adddata} />}/>
       </Routes>

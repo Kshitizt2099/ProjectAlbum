@@ -9,7 +9,7 @@ const Adddata = (props) => {
   return (
     <div>
       <div class="login-container">
-        <h1>Enter Book Name</h1>
+        <h1>Enter Data to inserted</h1>
 
   
      <input type="text" onChange={(e)=>{setid(e.target.value)}}class="form-control" id="exampleInputPassword1" placeholder="Enter ID"/>

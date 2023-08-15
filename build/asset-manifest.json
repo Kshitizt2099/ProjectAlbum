@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ProjectAlbum/static/css/main.88531e04.css",
+    "main.js": "/ProjectAlbum/static/js/main.fcae3bab.js",
+    "index.html": "/ProjectAlbum/index.html",
+    "main.88531e04.css.map": "/ProjectAlbum/static/css/main.88531e04.css.map",
+    "main.fcae3bab.js.map": "/ProjectAlbum/static/js/main.fcae3bab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88531e04.css",
+    "static/js/main.fcae3bab.js"
+  ]
+}
